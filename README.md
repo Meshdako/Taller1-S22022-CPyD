@@ -1,4 +1,5 @@
 # Taller 1 - CPyD
+![Image_text](Logo_UTEM.jpg)
 En el siguiente repositorio se encuentra el Taller N°1 de la asignatura **Computación Paralela y Distribuida**.
 
 ## Integrantes:
