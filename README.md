@@ -4,7 +4,7 @@ En el siguiente repositorio se encuentra el Taller N°1 de la asignatura **Compu
 
 ## Integrantes:
 * Martín Sobarzo
-* Cristobal Abarca
+* Cristóbal Abarca
 * Rodrigo Ubilla
 * Renato Palominos
 * Matías Álvarez
