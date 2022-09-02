@@ -30,12 +30,17 @@ int main(int argc, char **argv)
       int iteraciones = 0;
       while (tolerancia(x, xnew) == false)
       {
-         if (iteraciones > 0)
-         {
+         if (iteraciones > 0){
             x = xnew;
          }
+
+         if(evaluacion(func_deri,x,terminos)==0){
+            cout<<"Error: \n\tEvaluación de la derivada de f(x) tiene como resultado = 0";
+            return 0;
+         }
+
          xnew = x - (evaluacion(func, x, terminos) / evaluacion(func_deri, x, terminos));
-         cout << xnew << " iteracion:" << iteraciones << "\n";
+         cout << xnew << " iteracion:" << iteraciones + 1 << "\n";
          iteraciones++;
       }
    }
