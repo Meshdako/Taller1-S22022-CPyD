@@ -1,4 +1,4 @@
-# Taller 1 - CPyD
+# Taller 1 - CPyD Seccion 412
 ![Image_text](Logo_UTEM.jpg)
 En el siguiente repositorio se encuentra el Taller N°1 de la asignatura **Computación Paralela y Distribuida**.
 
