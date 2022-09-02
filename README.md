@@ -22,15 +22,16 @@ $ cd Taller1-CPyD
 ### Make:
 ```
 $ make
-$ *time ./nombre_archivo "x**3+x+-1"
+$ cd dist
+$ *time ./taller1g1 "x**3+x**1+-1"
 ```
 *Agregamos el símbolo del asterísco en el comando time, puesto que no es obligación el agregarlo al ejecutar el ./archivo*
 
 ### Modo de uso:
 Tal como se aprecia en el **Make**, debemos escribir nuestro polinomio de la siguiente forma:
 ```
-$ x**3+x+-1
+$ x**3+x**1+-1
 ```
-por cada carácter negativo (-) se debe agregar el carácter positivo (+) antes.
+por cada carácter negativo (-) se debe agregar el carácter positivo (+) antes, además se debe agregar la potencia 1 (**1)
 
 # Muchas gracias.
