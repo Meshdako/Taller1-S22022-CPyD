@@ -79,8 +79,9 @@ void stringfragtomatriz(string inputfrag, float func[50][2], int indice)
 
 void stringtomatriz(string input, float func[50][2], int &terminos)
 {
+    int size = input.length();
     string fraginput;
-    for (int i = 0; i < input.length(); i++){
+    for (int i = 0; i < size; i++){
         if (fraginput != ""){
             if (input[i] == '+'){
                 stringfragtomatriz(fraginput, func, terminos);
